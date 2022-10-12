@@ -2,7 +2,7 @@ package pwo;
 
 import java.math.BigDecimal;
 
-public class FibonacciGenerator {
+public class FibonacciGenerator implements ICalculator{
 
     private int lastIndex = 0;
     private BigDecimal current = new BigDecimal(0);
